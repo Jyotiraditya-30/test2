@@ -230,6 +230,7 @@ function hasSeenPost(history, postId) {
 async function getPosts() {
   const browser = await puppeteerExtra.launch({ // ✅ FIXED HERE
     headless: true,
+    executablePath: '/usr/bin/chromium-browser',
     args: ['--no-sandbox', '--disable-setuid-sandbox'],
   });
 
