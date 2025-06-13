@@ -229,7 +229,7 @@ function hasSeenPost(history, postId) {
 
 async function getPosts() {
   const browser = await puppeteerExtra.launch({ // ✅ FIXED HERE
-    headless: 'new',
+    headless: true,
     args: ['--no-sandbox', '--disable-setuid-sandbox'],
   });
 
