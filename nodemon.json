@@ -1,0 +1,4 @@
+{
+  "watch": ["server.js", "routes", "services"],
+  "ignore": ["*.json", "*.html", "*.png", "debug/", "latest.json"]
+}

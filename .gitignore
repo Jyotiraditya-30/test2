@@ -1,0 +1,89 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.*.local
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Optional npm cache directory
+.npm/
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# IDEs and editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Dependency directories
+bower_components/
+
+# Test coverage reports
+*.lcov
+*.lcov.info
+
+# PM2 process logs
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# macOS specific
+.AppleDouble
+.LSOverride
+
+# VS Code settings
+.vscode/
+
+# Compiled binaries, packages, executables
+*.exe
+*.out
+*.app
+*.dmg
+
+# Miscellaneous
+*.tgz
+*.zip
+*.tar.gz
+*.bak
+*.swp
+
+# Ignore test results
+test-results/
+*.spec.ts
+*.spec.js
+
+# Ignore database dumps and local data
+*.sqlite
+*.sqlite3
+*.db
+*.sql
+dump.sql
+local-data/
+
+# Ignore uploads (if handled locally for dev)
+uploads/
+public/uploads/
